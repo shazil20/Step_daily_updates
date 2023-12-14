@@ -8,11 +8,11 @@ for i in l:
         temp.append(i)
 print(temp)
 # print(i)
-list1 = ["apple","mango","orange","pineapple"]
+list1 = ["Apple","mango","orange","pineapple"]
 for a in list1:
     b=0
     for c in a:
-        if c in "aeiou":
+        if c.lower() in "aeiou":
             b+=1
     print(a,b)
     #function
